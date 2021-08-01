@@ -1,25 +1,84 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import fightersList from "./fighters_list.json";
+
+const classes = {
+  selected: {
+    backgroundColor: "green",
+    color: "white",
+    width: 130,
+  },
+  notSelected: {
+    backgroundColor: "white",
+    color: "black",
+    width: 130,
+  },
+};
 
 function App() {
+  const [fighters, setFighters] = useState(fightersList);
+  const [selectedFighter, setSelectedFighter] = useState("");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div
+        style={{
+          display: "flex",
+          // flexDirection: "column",
+          flexWrap: "wrap",
+          maxWidth: "100%",
+          cursor: "pointer",
+          marginBottom: 25,
+        }}
+      >
+        {fighters.map((fighter, i) => (
+          <button
+            style={fighter.selected ? classes.selected : classes.notSelected}
+            onClick={() => {
+              let fightersCopy = [...fighters];
+              fightersCopy[i].selected = !fightersCopy[i].selected;
+              setFighters(fightersCopy);
+            }}
+          >
+            <h3>{fighter.name}</h3>
+          </button>
+        ))}
+      </div>
+      <button
+        style={classes.notSelected}
+        onClick={() =>
+          setFighters(
+            fighters.map((fighter) => ({ ...fighter, selected: true }))
+          )
+        }
+      >
+        <h3> Select All</h3>
+      </button>
+      <button
+        style={classes.notSelected}
+        onClick={() =>
+          setFighters(
+            fighters.map((fighter) => ({ ...fighter, selected: false }))
+          )
+        }
+      >
+        <h3>Deselect All</h3>
+      </button>
+      <button
+        style={classes.notSelected}
+        onClick={() => {
+          const choices = fighters.filter((fighter) => fighter.selected);
+          if (!choices.length) return setSelectedFighter("");
+          setSelectedFighter(
+            choices[Math.floor(Math.random() * choices.length)].name
+          );
+        }}
+      >
+        <h3>Choose Character</h3>
+      </button>
+      <h1>{selectedFighter}</h1>
+    </>
   );
 }
 

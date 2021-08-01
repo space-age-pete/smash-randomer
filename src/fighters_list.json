@@ -1,0 +1,342 @@
+[
+  {
+    "name": "Bayonetta",
+    "selected": true
+  },
+  {
+    "name": "Bowser",
+    "selected": true
+  },
+  {
+    "name": "Bowser Jr.",
+    "selected": true
+  },
+  {
+    "name": "Captain Falcon",
+    "selected": true
+  },
+  {
+    "name": "Chrom (Roy echo fighter)",
+    "selected": true
+  },
+  {
+    "name": "Cloud",
+    "selected": true
+  },
+  {
+    "name": "Corrin",
+    "selected": true
+  },
+  {
+    "name": "Daisy (Peach echo fighter)",
+    "selected": true
+  },
+  {
+    "name": "Dark Pit (Pit echo fighter)",
+    "selected": true
+  },
+  {
+    "name": "Dark Samus (Samus echo fighter)",
+    "selected": true
+  },
+  {
+    "name": "Diddy Kong",
+    "selected": true
+  },
+  {
+    "name": "Donkey Kong",
+    "selected": true
+  },
+  {
+    "name": "Dr. Mario",
+    "selected": true
+  },
+  {
+    "name": "Duck Hunt",
+    "selected": true
+  },
+  {
+    "name": "Falco",
+    "selected": true
+  },
+  {
+    "name": "Fox",
+    "selected": true
+  },
+  {
+    "name": "Ganondorf",
+    "selected": true
+  },
+  {
+    "name": "Greninja",
+    "selected": true
+  },
+  {
+    "name": "The Ice Climbers",
+    "selected": true
+  },
+  {
+    "name": "Ike",
+    "selected": true
+  },
+  {
+    "name": "Incineroar",
+    "selected": true
+  },
+  {
+    "name": "Inkling",
+    "selected": true
+  },
+  {
+    "name": "Isabelle",
+    "selected": true
+  },
+  {
+    "name": "Jigglypuff",
+    "selected": true
+  },
+  {
+    "name": "Ken",
+    "selected": true
+  },
+  {
+    "name": "King Dedede",
+    "selected": true
+  },
+  {
+    "name": "King K. Rool",
+    "selected": true
+  },
+  {
+    "name": "Kirby",
+    "selected": true
+  },
+  {
+    "name": "Link",
+    "selected": true
+  },
+  {
+    "name": "Little Mac",
+    "selected": true
+  },
+  {
+    "name": "Lucario",
+    "selected": true
+  },
+  {
+    "name": "Lucas",
+    "selected": true
+  },
+  {
+    "name": "Lucina (Marth echo fighter)",
+    "selected": true
+  },
+  {
+    "name": "Luigi",
+    "selected": true
+  },
+  {
+    "name": "Mario",
+    "selected": true
+  },
+  {
+    "name": "Marth",
+    "selected": true
+  },
+  {
+    "name": "Mega Man",
+    "selected": true
+  },
+  {
+    "name": "Meta Knight",
+    "selected": true
+  },
+  {
+    "name": "Mewtwo",
+    "selected": true
+  },
+  {
+    "name": "Mii Brawler",
+    "selected": true
+  },
+  {
+    "name": "Mii Gunner",
+    "selected": true
+  },
+  {
+    "name": "Mii Fighter",
+    "selected": true
+  },
+  {
+    "name": "Mr. Game & Watch",
+    "selected": true
+  },
+  {
+    "name": "Ness",
+    "selected": true
+  },
+  {
+    "name": "Captain Olimar",
+    "selected": true
+  },
+  {
+    "name": "Pac-Man",
+    "selected": true
+  },
+  {
+    "name": "Palutena",
+    "selected": true
+  },
+  {
+    "name": "Peach",
+    "selected": true
+  },
+  {
+    "name": "Pichu",
+    "selected": true
+  },
+  {
+    "name": "Pikachu",
+    "selected": true
+  },
+  {
+    "name": "Piranha Plant (DLC)",
+    "selected": true
+  },
+  {
+    "name": "Pit",
+    "selected": true
+  },
+  {
+    "name": "Pokemon Trainer (Charizard, Ivysaur and Squirtle)",
+    "selected": true
+  },
+  {
+    "name": "R.O.B. the robot",
+    "selected": true
+  },
+  {
+    "name": "Robin",
+    "selected": true
+  },
+  {
+    "name": "Rosalina",
+    "selected": true
+  },
+  {
+    "name": "Roy",
+    "selected": true
+  },
+  {
+    "name": "Richter (Simon echo fighter)",
+    "selected": true
+  },
+  {
+    "name": "Ridley",
+    "selected": true
+  },
+  {
+    "name": "Ryu",
+    "selected": true
+  },
+  {
+    "name": "Samus",
+    "selected": true
+  },
+  {
+    "name": "Sheik",
+    "selected": true
+  },
+  {
+    "name": "Shulk",
+    "selected": true
+  },
+  {
+    "name": "Simon Belmont",
+    "selected": true
+  },
+  {
+    "name": "Solid Snake",
+    "selected": true
+  },
+  {
+    "name": "Sonic",
+    "selected": true
+  },
+  {
+    "name": "Toon Link",
+    "selected": true
+  },
+  {
+    "name": "Villager",
+    "selected": true
+  },
+  {
+    "name": "Wario",
+    "selected": true
+  },
+  {
+    "name": "Wii Fit Trainer",
+    "selected": true
+  },
+  {
+    "name": "Wolf",
+    "selected": true
+  },
+  {
+    "name": "Yoshi",
+    "selected": true
+  },
+  {
+    "name": "Young Link",
+    "selected": true
+  },
+  {
+    "name": "Zelda",
+    "selected": true
+  },
+  {
+    "name": "Zero Suit Samus",
+    "selected": true
+  },
+  {
+    "name": "Joker",
+    "selected": true
+  },
+  {
+    "name": "Hero",
+    "selected": true
+  },
+  {
+    "name": "Terry",
+    "selected": true
+  },
+  {
+    "name": "Banjo & Kazooie",
+    "selected": true
+  },
+  {
+    "name": "Byleth",
+    "selected": true
+  },
+  {
+    "name": "Min Min",
+    "selected": true
+  },
+  {
+    "name": "Steve",
+    "selected": true
+  },
+  {
+    "name": "Sephiroth",
+    "selected": true
+  },
+  {
+    "name": "Pyra & Mythra",
+    "selected": true
+  },
+  {
+    "name": "Kazuya",
+    "selected": true
+  }
+]
