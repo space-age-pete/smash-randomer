@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import logo from "./logo.svg";
+import * as React from "react";
 import "./App.css";
 import fightersList from "./fighters_list.json";
 
@@ -17,8 +16,8 @@ const classes = {
 };
 
 function App() {
-  const [fighters, setFighters] = useState(fightersList);
-  const [selectedFighter, setSelectedFighter] = useState("");
+  const [fighters, setFighters] = React.useState(fightersList);
+  const [selectedFighter, setSelectedFighter] = React.useState("");
 
   return (
     <>
